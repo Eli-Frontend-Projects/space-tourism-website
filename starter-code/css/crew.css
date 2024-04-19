@@ -1,0 +1,124 @@
+main{
+        max-height: fit-content;
+        max-width: fit-content;
+        display: flex;
+        margin: auto;
+        margin-top: 10%;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+body{
+    background-image: url("../assets/crew/background-crew-mobile.jpg");
+    height: 100vh;
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-image: url("../assets/crew/background-crew-tablet.jpg");
+    }
+    main{
+            max-height: fit-content;
+            max-width: fit-content;
+            display: flex;
+            margin: auto;
+            margin-top: 10%;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width: 720px) {
+    body{
+        background-image: url("../assets/crew/background-crew-desktop.jpg");
+    }
+
+    main{
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 80%;
+    }
+}
+
+h2{
+    color: white;
+}
+
+span{
+    color: var(--secend-color);
+}
+
+h1{
+    color: white;
+}
+
+.main-left{
+    margin-top: 0%;
+    align-self: flex-start;
+}
+
+.main-left p:first-of-type {
+    max-width: 80%;
+}
+
+
+.main-right img{
+    width: 80%;
+    margin-top: auto;
+}
+
+.selector-div{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0%;
+    margin-top: 60px;
+}
+
+.engineer-selector{
+    background-color: var(--secend-color);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.active-engineer-selector{
+    background-color: white;
+}
+
+ul>:first-child{
+    margin-left: 0px;
+}
+
+.main-left{
+    width: 740px;
+}
+
+.profession{
+  margin-top: 20%;
+  font-family: var(--secend-font);
+  color: var(--secend-color);
+  font-weight: normal;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#crew-name{
+    font-family: var(--secend-font);
+    color: #fff;
+    font-size: 56px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    height: 120px;
+}

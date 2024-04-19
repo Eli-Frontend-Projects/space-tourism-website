@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/technology.css">
+  <script src="js/technology.js" defer></script>
+  <script src="js/index.js" defer></script>
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+    <header>
+      <img src="./assets/shared/logo.svg"/>
+      <a id="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <nav>
+        <a class="menu" href="index.html">00 Home</a>
+        <a class="menu" href="destination.html">01 Destination</a>
+        <a class="menu" href="crew.html">02 Crew</a>
+        <a class="menu active-menu" href="technology.html">03 Technology</a>
+      </nav>
+      </nav>
+    </header>
+    <main>
+      <div class="main-heading">
+        <h1><span>03</span> SPACE LAUNCH 101</h1>
+      </div>
+      <div class="inner">
+        <div class="left">
+            <div class="num">
+                <a class="technology-selector active" id="num1" data-num="0">1</a>
+                <a class="technology-selector" id="num2" data-num="1">2</a>
+                <a class="technology-selector" id="num3" data-num="2">3</a>
+              </div>
+        </div>
+        
+        <div class="mid">
+          <p>THE TERMINOLOGY...</p>
+          <h1 id="technology-name">Launch vehicle</h1>
+          <p id="technology-description">
+            A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+            payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+            WEB-x carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+            it's quite an awe-inspiring sight on the launch pad!"
+          </p>
+        </div>
+      
+        <div class="right">
+          <img id="technology-image" src="assets/technology/image-launch-vehicle-portrait.jpg"/>
+        </div>
+    </main>
+</body>
+</html>
